@@ -1,0 +1,369 @@
+*{
+    margin:0%;
+    padding: 0%;
+    
+  }
+  
+  a:hover{
+    color:orangered;
+  }
+   
+  #h{ 
+    
+    margin-left: 2rem;
+    color:chartreuse;
+    font-family: 'Satisfy', cursive; 
+    font-size: 3rem;
+  
+  }
+  
+ body#nav{
+    background-image:url("https://www.gannett-cdn.com/presto/2020/11/05/PTX1/75a13776-96d3-4965-9020-e64f132f4355-Blue_Mountain_Star-1.jpg?crop=1835,1032,x805,y316&width=1835&height=1032&format=pjpg&auto=webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  #hire{
+    text-shadow: gold .75rem 1.25rem;
+  }
+  
+  .topnav1 a{
+
+    font-family: 'Montserrat', sans-serif; 
+    float: right;
+    text-decoration: none;
+    color: chartreuse;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .topnav1 a:hover{
+    color: orange;
+  }
+  
+  .topnav1 {
+    overflow:hidden;
+    position: sticky;
+    top: 0%;
+    background-color: black;
+    height: 5rem;
+    width:100vw;
+  }
+  
+  
+  
+  .container{
+    margin-top: 7.5rem;
+    color: bisque;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif; 
+         
+  }
+  
+  #lead{
+    display:flex;
+    justify-content:right;
+    margin-right: 1rem;
+  
+   }
+   
+  #hype {
+    position: absolute;
+    width: 100vw;
+    height:5rem;
+    background-color:black;
+    color: green;
+    margin-top: 7.8rem;
+  
+  }
+  p{
+    display:flex;
+    justify-content:center;
+    font-family: 'Permanent Marker', cursive;
+    color:orange;
+  }
+   
+  #s{
+    display:flex;
+    justify-content:right;
+    margin-right: 4rem;
+    gap:2rem;
+    margin-top:-1rem;
+  }
+  body#look{
+    background-color: lightgray;
+  }
+   
+
+  .carousel{
+    position: relative;
+    height: 45rem;
+    width: 40%;
+    margin: 0 auto;
+ 
+  }
+  .carousel__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+ 
+ 
+  .carousel__track-container{
+    position: relative;
+    height: 60%;
+    overflow: hidden;
+  }
+ 
+  .carousel__track{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+ 
+  }
+ 
+  .carousel__slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+ 
+  .carousel__button{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+ 
+  }
+ 
+  .carousel__button--left{
+    left: -4rem;
+ 
+  }
+  .carousel__button--right{
+    right: -4rem;
+    
+ 
+  }
+ 
+  .carousel__button img{
+    width: 2rem;
+    
+ 
+  }
+ 
+  .carousel__nav{
+    background:pink;
+    display: flex;
+    justify-content: center;
+    padding: .3rem 0;
+    
+  }
+ 
+  .carousel__indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background: rgba(0, 0, 0,.3);
+    margin: 0 1rem;
+    cursor: pointer;
+ }
+  .carousel__indicator.current-slide{
+    background: rgba(0, 0, 0, .75);
+ }
+  .is-hidden {
+   display: none;
+ }
+ 
+ #home{
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: larger;
+  margin-left: 4rem;
+  
+ }
+ 
+ body {
+     padding: 0;
+     margin: 0;
+     background: #FFF;
+     font-family: 'Open Sans', sans-serif;
+ }
+ body a {
+     transition: 0.5s all;
+     -webkit-transition: 0.5s all;
+     -moz-transition: 0.5s all;
+     -o-transition: 0.5s all;
+     -ms-transition: 0.5s all;
+     text-decoration: none;
+ }
+ body a:hover {
+     text-decoration: none;
+ }
+ 
+ /* contact */
+ .contact{background-color: lightgrey; 
+  
+}
+
+
+ .contact-heading h3{
+     padding-bottom: 4rem;
+     text-transform: capitalize;
+     text-align: center;
+     font-size: 3em;
+     font-weight: 600;
+     color: black;
+     
+ }
+ 
+ .contact-form input[type="text"],.contact-form input[type="email"],.contact-form input[type="numbers"],textarea{
+     margin: 2px 0;
+     padding: .6em 1em;
+     font-size: 1.2em;
+     width: 100%;
+     background: #fff;
+     border:none;
+ }
+ textarea{
+
+     height:10rem;
+ }
+ input.form-control:focus {
+     box-shadow: none;
+ }
+ button.btn.btn-default:focus {
+     outline: none;
+ }
+ ::-webkit-input-placeholder{
+     color:green !important;
+ }
+ .contact-form  input[type="submit"] {
+     background: #ffb900;
+     border: 2px solid #ffb900;
+     padding: .3em 1em;
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 1.2em;
+     font-family: 'Ropa Sans', sans-serif;
+     margin-bottom: 10.2rem;
+ }
+ .contact-form  input[type="submit"]:hover{
+     background:none;
+     color:#FFFFFF;
+     
+ }
+  
+
+ iframe {
+     border: none;
+     width: 64rem;
+     height: 29rem;
+ }
+
+ #logo{
+  position: absolute;
+  width:100% ;
+  height:5rem;
+  background-color:black;
+  
+ }  
+ #smedia{
+  display:flex;
+    justify-content:right;
+    margin-right: 4rem;
+    gap:2rem;
+    margin-top:.6rem;
+
+ }
+ 
+ #casa{
+  margin-left: 4rem;
+  font-size: larger;
+  font-weight: 200;
+  
+  
+ }  
+ /*contact */
+
+  .me{
+     position: absolute;
+     left: 4rem;
+     right: 4rem;
+     top: 35rem;
+     font-size: 1.2rem;
+     
+  }
+
+
+
+ 
+
+ #logos{
+    position: absolute;
+    width: 100%;
+    height:7rem;
+    background-color:black;
+    
+  
+ }
+ 
+   
+  
+#social{
+
+    display:flex;
+    justify-content:right;
+    margin-right: 4rem;
+    gap:2rem;
+    margin-top:-1rem;
+  }
+
+
+ #homes{
+  margin-left: 2rem;
+  font-weight: 500; 
+ }
+
+  
+#slogan{ 
+  text-align: center;
+  font-weight: 800;
+  color:green;
+  font-size:2rem;
+  margin-top: -2rem;
+}
+ 
+.accordion-body{
+  margin-left: 2.2rem;
+}
+#rides{
+  background-color: lightgrey;
+}
+   
+#try{
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: 600;
+}
+
+  
+
+#lo{
+  margin-top: 13rem;
+  position: fixed;
+  width: 100vw;
+  height:6rem;
+  background-color:black;
+}

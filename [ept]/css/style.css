@@ -1,0 +1,217 @@
+*{
+  margin:0%;
+  padding: 0%;
+  
+  
+}
+ 
+#h{ 
+  color: yellow;
+  font-family: 'Comfortaa', cursive;
+  font-size: 3.5rem;
+  margin-top: .5rem;
+  margin-left: 2rem;
+}
+
+
+.topnav1 a{
+  font-family: 'Satisfy', cursive;
+  margin-top: 1.5rem;
+  display: flex;
+  float: right;
+  font-size: 1.5rem;
+  margin-right:4rem ;
+  text-decoration: none;
+  color: yellow;
+}
+
+.topnav1 {
+  margin-top:-50rem;
+  overflow:hidden;
+  position:absolute;
+  background-color:grey;
+  height: 6rem;
+  width: 100%;
+}
+
+
+  
+
+#index{
+ background-image: url(https://www.affordabletravelplan.com/wp-content/uploads/2018/03/el-paso.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  padding-bottom: 0;
+  
+}
+
+  
+a:hover{
+  color: gold;
+}
+
+
+#ep { 
+  
+
+  font-style: italic;
+  margin-top: 2rem;
+  font-size: 4rem;
+  text-align: center;
+  
+ }
+
+ .cont{
+  background-image:url("https://www.gannett-cdn.com/presto/2020/11/05/PTX1/75a13776-96d3-4965-9020-e64f132f4355-Blue_Mountain_Star-1.jpg?crop=1835,1032,x805,y316&width=1835&height=1032&format=pjpg&auto=webp");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+
+ }
+
+
+
+ #contact{
+  color:yellow;
+  margin-left: 20rem;
+  margin-top: 12rem;
+ } 
+
+
+ #ty{
+  margin-top: 3rem;
+  color: yellow;
+  margin-left: 15rem;
+  font-size: 2rem;
+ } 
+ 
+
+ #home{
+  color: orange;
+  margin-left: 10px; 
+ }  
+
+
+  
+ 
+ #look{
+  background-color: lightgray;
+  
+ }
+
+ .carousel{
+   position: relative;
+   height: 600px;
+   width: 40%;
+   margin: 0 auto;
+
+ }
+ .carousel__image{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+
+
+ .carousel__track-container{
+   position: relative;
+   height: 80%;
+   overflow: hidden;
+ }
+
+ .carousel__track{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   position: relative;
+   height: 100%;
+   transition: transform 250ms ease-in;
+
+ }
+
+ .carousel__slide{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   width: 100%;
+ }
+
+ .carousel__button{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   background: transparent;
+   border: 0;
+   cursor: pointer;
+
+
+ }
+
+ .carousel__button--left{
+   left: -50px;
+
+ }
+ .carousel__button--right{
+   right: -50px;
+
+ }
+
+ .carousel__button img{
+   width: 40px;
+   
+
+ }
+
+ .carousel__nav{
+   background:sandybrown;
+   display: flex;
+   justify-content: center;
+   padding: 10px 0;
+   
+ }
+
+ .carousel__indicator{
+   border: 0;
+   border-radius: 50%;
+   width: 15px;
+   height: 15px;
+   background: rgba(0, 0, 0,.3);
+   margin: 0 12px;
+   cursor: pointer;
+}
+ .carousel__indicator.current-slide{
+   background: rgba(0, 0, 0, .75);
+}
+ .is-hidden {
+  display: none;
+}
+ 
+ 
+footer {
+  margin-top: 52rem;
+  position: absolute;
+  width: 100%;
+  height: 4.3rem;
+  background-color: grey;
+  color:yellow;
+}
+p{
+  
+  text-align: center;
+}
+ 
+
+#s{
+  margin-top: -1.3rem;
+  display:flex;
+  justify-content:right;
+  margin-right: 4rem;
+  gap:2rem;
+  
+  
+}
+ 
+ 
+ 
+  
+ 
