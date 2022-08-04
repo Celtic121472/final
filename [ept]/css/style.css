@@ -2,8 +2,8 @@
   margin:0%;
   padding: 0%;
   
-  
 }
+
  
 #h{ 
   color: yellow;
@@ -26,7 +26,7 @@
 }
 
 .topnav1 {
-  margin-top:-50rem;
+  margin-top:-55rem;
   overflow:hidden;
   position:absolute;
   background-color:grey;
@@ -34,7 +34,9 @@
   width: 100%;
 }
 
-
+footer{
+  margin-bottom:-9rem;
+}
   
 
 #index{
@@ -53,14 +55,14 @@ a:hover{
 
 #ep { 
   
-
+  color: gold;
   font-style: italic;
   margin-top: 2rem;
   font-size: 4rem;
   text-align: center;
   
  }
-
+/*contact*/
  .cont{
   background-image:url("https://www.gannett-cdn.com/presto/2020/11/05/PTX1/75a13776-96d3-4965-9020-e64f132f4355-Blue_Mountain_Star-1.jpg?crop=1835,1032,x805,y316&width=1835&height=1032&format=pjpg&auto=webp");
   background-repeat: no-repeat;
@@ -211,7 +213,4 @@ p{
   
 }
  
- 
- 
-  
  
