@@ -15,13 +15,36 @@
     font-family: 'Satisfy', cursive; 
     font-size: 3rem;
   }
-  
- body#nav{
-    background-image:url("https://www.gannett-cdn.com/presto/2020/11/05/PTX1/75a13776-96d3-4965-9020-e64f132f4355-Blue_Mountain_Star-1.jpg?crop=1835,1032,x805,y316&width=1835&height=1032&format=pjpg&auto=webp");
+  @media screen and (min-device-width:900px)
+                and (max-device-width:1835px)
+                and (-webkit-min-device-pixel-ratio:1){
+  }
+  @media screen and (min-device-width:900px)
+                and (max-device-width:1835px)
+                and (-webkit-min-device-pixel-ratio:2)
+                and (min-resolution:192dpi)
+                {
+
+  }
+  #nav{
+    background-image:url("https://www.gannett-cdn.com/presto/2020/11/05/PTX1/75a13776-96d3-4965-9020-e64f132f4355-Blue_Mountain_Star-1.jpg?crop=1835,1032,x805,y316&width=1835&height=1032");
     background-repeat: no-repeat;
     background-size: cover;
   
   }
+  
+  @media screen and (min-device-width:900px)
+  and (max-device-width:1835px)
+  and (-webkit-min-device-pixel-ratio:1)
+ {
+}
+@media screen and (min-device-width:900px)
+  and (max-device-width:1835px)
+  and (-webkit-min-device-pixel-ratio:2)
+  and (min-resolution:192dpi){
+
+  }
+
   
   #hire{
     text-shadow: gold .75rem 1.25rem;
@@ -51,13 +74,8 @@
     width:100%;
   }
   
-  #footnav{
-    position: absolute;
-    width:100% ;
-    height:5rem;
-    background-color:black;
-    
-  }
+     
+  
   
   .container{
     margin-top: 12rem;
@@ -81,8 +99,24 @@
     background-color:black;
     color: green;
     margin-top: 9rem;
-  
   }
+  
+  
+  @media screen and (min-device-width:900px)
+  and (max-device-width:1835px)
+  and (-webkit-min-device-pixel-ratio:1)
+ {
+}
+@media screen and (min-device-width:900px)
+  and (max-device-width:1835px)
+  and (-webkit-min-device-pixel-ratio:2)
+  and (min-resolution:192dpi){
+
+  }
+
+ 
+
+
   p{
     display:flex;
     justify-content:center;
@@ -210,8 +244,17 @@
   width:100% ;
   height:5rem;
   background-color:black;
-  
- }  
+ 
+ }
+ @media screen and (min-device-width:480px)
+ and (max-device-width:1024px)
+ and (-webkit-min-device-pixel-ratio:1)
+     {
+
+       }
+
+
+
  
  body {
      
@@ -232,8 +275,9 @@
   right: 6rem;
   top: 39rem;
   font-size: 1.2rem;
-  
 }
+
+
  body a:hover {
      text-decoration: none;
  }
@@ -392,4 +436,10 @@
 }
 #collapseOne{
   background-color: black;
-}
+}  /*mobile first*/
+
+
+ 
+
+
+
