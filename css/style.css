@@ -256,6 +256,7 @@
  
  }
  @media(max-width:700px)
+ and(min-width:480px)
 {
 #logo{margin-top:100vh;
   
@@ -264,6 +265,7 @@
 }
 @media  
   (max-width:700px)
+  and(min-width:480)
   and (min-resolution:192dpi)
   {
     #logo{margin-top: 100vh;
