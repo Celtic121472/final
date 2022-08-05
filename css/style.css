@@ -255,12 +255,24 @@
   background-color:black;
  
  }
- @media screen and (min-device-width:480px)
- and (max-device-width:1024px)
- and (-webkit-min-device-pixel-ratio:1)
-     {
+ @media(max-width:700px)
+{
+#logo{margin-top:100vh;
+  
 
-       }
+  }
+}
+@media  
+  (max-width:700px)
+  and (min-resolution:192dpi)
+  {
+    #logo{margin-top: 100vh;
+  }
+
+  }
+
+
+
 
 
 
@@ -395,7 +407,7 @@
 
 
  #homes{
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-weight: 500; 
  }
 
@@ -407,6 +419,26 @@
   font-size:2rem;
   margin-top: -2rem;
 }
+@media(max-width:700px)
+{
+#slogan{font-size: 12px;
+  text-align: right;
+  margin-top: 15px;
+  
+
+  }
+}
+@media  
+  (max-width:700px)
+  and (min-resolution:192dpi)
+  {
+    #slogan{font-size: 12px;
+      text-align:right;
+      margin-top: 15px;
+  }
+
+  }
+
  
 .accordion-body{
   display:flex;
@@ -414,6 +446,22 @@
   margin-left: 2rem;
   margin-right: 2rem;
 }
+@media(max-width:1200px)
+{
+ .accordion-body{flex-flow: column;
+  
+
+  }
+}
+@media  
+  (max-width:1200px)
+  and (min-resolution:192dpi)
+  {
+    .accordion-body{flex-flow: column;
+  }
+
+  }
+
 #rides{
   background-color: lightgrey;
 }
