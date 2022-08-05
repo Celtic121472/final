@@ -8,24 +8,31 @@
     color:orangered;
   }
    
+    
+   
   #h{ 
     
-    margin-left: 1rem;
+    margin-left: 100px;
     color:chartreuse;
     font-family: 'Satisfy', cursive; 
     font-size: 3rem;
   }
-  @media screen and (min-device-width:900px)
-                and (max-device-width:1835px)
-                and (-webkit-min-device-pixel-ratio:1){
-  }
-  @media screen and (min-device-width:900px)
-                and (max-device-width:1835px)
-                and (-webkit-min-device-pixel-ratio:2)
-                and (min-resolution:192dpi)
-                {
+  @media (max-width:1100px)
+             { #h{ font-size: 15px;
+                   margin-left: 2px;
+            }
 
-  }
+                
+                }
+  @media (max-width:1100px)
+                and (min-resolution:192dpi)
+                { #h{
+                  font-size: 15px;
+                  margin-left: 2px;
+                
+                }
+
+         }
   #nav{
     background-image:url("https://www.gannett-cdn.com/presto/2020/11/05/PTX1/75a13776-96d3-4965-9020-e64f132f4355-Blue_Mountain_Star-1.jpg?crop=1835,1032,x805,y316&width=1835&height=1032");
     background-repeat: no-repeat;
@@ -33,18 +40,7 @@
   
   }
   
-  @media screen and (min-device-width:900px)
-  and (max-device-width:1835px)
-  and (-webkit-min-device-pixel-ratio:1)
- {
-}
-@media screen and (min-device-width:900px)
-  and (max-device-width:1835px)
-  and (-webkit-min-device-pixel-ratio:2)
-  and (min-resolution:192dpi){
-
-  }
-
+ 
   
   #hire{
     text-shadow: gold .75rem 1.25rem;
@@ -61,6 +57,16 @@
     font-weight: bold;
     font-size: 2rem;
   }
+  @media (max-width:1000px)
+             { .topnav1 a{ font-size: 12px;
+              
+                 } }
+  @media (max-width:1000px)
+                and (min-resolution:192dpi)
+                { .topnav1 a{
+                  font-size: 12px;
+                }}
+  
   .topnav1 a:hover{
     color: orange;
   }
@@ -102,15 +108,18 @@
   }
   
   
-  @media screen and (min-device-width:900px)
-  and (max-device-width:1835px)
-  and (-webkit-min-device-pixel-ratio:1)
- {
+  @media  (max-width:1200px)
+  
+ {#hype{margin-top: 0;
+
+ }
 }
-@media screen and (min-device-width:900px)
-  and (max-device-width:1835px)
-  and (-webkit-min-device-pixel-ratio:2)
-  and (min-resolution:192dpi){
+@media  
+  (max-width:1200px)
+  and (min-resolution:192dpi)
+  {#hype{margin-top: 0;
+
+  }
 
   }
 
