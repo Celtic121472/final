@@ -1,0 +1,542 @@
+*{
+    margin:0%;
+    padding: 0%;
+    
+  }
+  
+  a:hover{
+    color:orangered;
+  }
+   
+    
+   
+  #h{ 
+    
+    margin-left: 100px;
+    color:chartreuse;
+    font-family: 'Satisfy', cursive; 
+    font-size: 3rem;
+  }
+  @media (max-width:1100px)
+             { #h{ font-size: 10px;
+                   margin-left: 1px;
+            }
+
+                
+                }
+  @media (max-width:1100px)
+                and (min-resolution:192dpi)
+                { #h{
+                  font-size: 10px;
+                  margin-left: 1px;
+                
+                }
+
+         }
+  #nav{
+    background-image:url("https://www.gannett-cdn.com/presto/2020/11/05/PTX1/75a13776-96d3-4965-9020-e64f132f4355-Blue_Mountain_Star-1.jpg?crop=1835,1032,x805,y316&width=1835&height=1032");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+ 
+  
+  #hire{
+    text-shadow: gold .75rem 1.25rem;
+  }
+  
+  .topnav1 a{
+
+    font-family: 'Montserrat', sans-serif; 
+    float: right;
+    text-decoration: none;
+    color: chartreuse;
+    margin-right:2.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  @media (max-width:1000px)
+             { .topnav1 a{ font-size: 10px;
+              margin-right: 10px;
+              margin-top: 5px;
+              
+                 }
+                 }
+  @media (max-width:1000px)
+                and (min-resolution:192dpi)
+                { .topnav1 a{
+                  font-size: 10px;
+                  margin-right: 10px;
+                  margin-top: 5px;
+                }
+              }
+  
+  .topnav1 a:hover{
+    color: orange;
+  }
+  
+  .topnav1 {
+    overflow:hidden;
+    position: sticky;
+    top: 0%;
+    background-color: black;
+    height: 5rem;
+    width:100%;
+  }
+  
+     
+  
+  
+  .container{
+    margin-top: 12rem;
+    color: bisque;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif; 
+         
+  }
+  
+  #lead{
+    display:flex;
+    justify-content:right;
+    margin-right: 1rem;
+  
+   }
+   
+  #hype {
+    position: absolute;
+    width: 100%;
+    height:5rem;
+    background-color:black;
+    color: green;
+    margin-top: 9rem;
+  }
+  
+  
+  @media  (max-width:1200px)
+  
+ {#hype{position: relative; 
+
+ }
+}
+
+ 
+
+
+  p{
+    display:flex;
+    justify-content:center;
+    font-family: 'Permanent Marker', cursive;
+    color:orange;
+  }
+   
+  #s{
+    display:flex;
+    justify-content:right;
+    margin-right: 4rem;
+    gap:2rem;
+    margin-top:-1rem;
+  }
+  /*browse.html*/
+  body#look{
+    background-color: lightgray;
+  }
+   
+
+  .carousel{
+    position: relative;
+    height: 48rem;
+    width: 40%;
+    margin: 0 auto;
+ 
+  }
+  .carousel__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+ 
+ 
+  .carousel__track-container{
+    position: relative;
+    height: 60%;
+    overflow: hidden;
+  }
+ 
+  .carousel__track{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+ 
+  }
+ 
+  .carousel__slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+ 
+  .carousel__button{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+ 
+  }
+ 
+  .carousel__button--left{
+    left: -4rem;
+ 
+  }
+  .carousel__button--right{
+    right: -4rem;
+    
+ 
+  }
+ 
+  .carousel__button img{
+    width: 2rem;
+    
+ 
+  }
+ 
+  .carousel__nav{
+    background:pink;
+    display: flex;
+    justify-content: center;
+    padding: .3rem 0;
+    
+  }
+ 
+  .carousel__indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background: rgba(0, 0, 0,.3);
+    margin: 0 1rem;
+    cursor: pointer;
+ }
+  .carousel__indicator.current-slide{
+    background: rgba(0, 0, 0, .75);
+ }
+  .is-hidden {
+   display: none;
+ }
+ 
+ #home{
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: larger;
+  margin-left: 4rem;
+ } 
+ @media(max-width:700px)
+ {
+ #home{margin-top: 15px;
+  margin-left: 15px;
+
+ }
+ }
+ 
+ @media  
+   (max-width:700px)
+   and (min-resolution:192dpi)
+   {
+     #home{margin-top: 15px;
+      margin-left: 15px;
+   }
+ 
+   }
+ #smedia{
+  display:flex;
+  justify-content:right;
+  margin-right: 4rem;
+  gap:2rem;
+  margin-top:.5rem;
+ }
+  @media(max-width:700px)
+ {
+ #smedia{
+  gap: 15px;
+ }
+   }
+ 
+ @media  
+   (max-width:700px)
+   and (min-resolution:192dpi)
+   {
+     #smedia{gap: 15px;
+   }
+ 
+   }
+
+ #logo{
+  position:relative;
+  width:100% ;
+  height:5rem;
+  background-color:black;
+ 
+ }
+ @media(max-width:700px)
+{
+#logo{margin-top: 30vh;
+
+}
+    
+  }
+
+
+
+
+
+ 
+ body {
+     /*contact*/
+     background: #FFF;
+     font-family: 'Open Sans', sans-serif;
+ }
+ body a {
+     transition: 0.5s all;
+     -webkit-transition: 0.5s all;
+     -moz-transition: 0.5s all;
+     -o-transition: 0.5s all;
+     -ms-transition: 0.5s all;
+     text-decoration: none;
+ }
+ .me{
+  position: absolute;
+  left: 6rem;
+  right: 6rem;
+  top: 39rem;
+  font-size: 1.2rem;
+}
+@media(max-width:480px){
+  .me{
+   top:35rem;
+  }
+}
+
+ body a:hover {
+     text-decoration: none;
+ }
+ 
+ /* contact */
+ .contact{background-color: lightgrey; 
+  
+}
+
+
+ .contact-heading h3{
+     padding-bottom: 4rem;
+     text-transform: capitalize;
+     text-align: center;
+     font-size: 3em;
+     font-weight: 600;
+     color: black;
+     
+ }
+ 
+ .contact-form input[type="text"],.contact-form input[type="email"],.contact-form input[type="numbers"],textarea{
+     margin: 2px 0;
+     padding: .6em 1em;
+     font-size: 1.2em;
+     width: 100%;
+     background: #fff;
+     border:none;
+     
+ }
+ textarea{
+     
+     height:10rem;
+ }
+ input.form-control:focus {
+     box-shadow: none;
+ }
+ button.btn.btn-default:focus {
+     outline: none;
+ }
+ ::-webkit-input-placeholder{
+     color:green !important;
+ }
+ .contact-form  input[type="submit"] {
+     background: #ffb900;
+     border: 2px solid #ffb900;
+     padding: .4em 2em;
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 1.2em;
+     font-family: 'Ropa Sans', sans-serif;
+     margin-bottom: 16.3rem;
+ }
+ .contact-form  input[type="submit"]:hover{
+     background:none;
+     color:#FFFFFF;
+     
+ }
+  
+/*map*/
+ iframe {
+  position: relative;
+     border: none;
+     width:71rem ;
+     height: 29.5rem;
+     margin-left: 2rem;
+ }
+
+ @media (max-width:1000px)
+ { iframe{ position: relative;
+  width:35rem;
+  margin-left: 3px;
+ margin-top:-10rem;
+     }
+     }
+@media (max-width:1000px)
+    and (min-resolution:192dpi)
+    { iframe{ position: relative;
+      width:35rem;
+      margin-left: 3px;
+      margin-top:-10rem;
+      
+    }
+  }
+
+
+ 
+ 
+ #casa{
+  margin-left: 4rem;
+  font-size: larger;
+  font-weight: 200;
+  top: 2rem;
+  
+ }  
+ /*contact */
+
+ 
+
+
+
+ 
+
+ #logos{
+    position: absolute;
+    width: 100%;
+    height:7rem;
+    background-color:black;
+    
+  
+ }
+ 
+   /*ride.html*/
+  
+#social{
+
+    display:flex;
+    justify-content:right;
+    margin-right: 4rem;
+    gap:2rem;
+    margin-top:-1rem;
+  }
+
+
+ #homes{
+  margin-left: 1rem;
+  font-weight: 500; 
+ }
+
+  
+#slogan{ 
+  text-align: center;
+  font-weight: 800;
+  color:green;
+  font-size:2rem;
+  margin-top: -2rem;
+}
+@media(max-width:700px)
+{
+#slogan{font-size: 12px;
+  text-align: right;
+  margin-top: 15px;
+  
+
+  }
+}
+@media  
+  (max-width:700px)
+  and (min-resolution:192dpi)
+  {
+    #slogan{font-size: 12px;
+      text-align:right;
+      margin-top: 15px;
+  }
+
+  }
+
+ 
+.accordion-body{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+@media(max-width:1200px)
+{
+ .accordion-body{flex-flow: column;
+  
+
+  }
+}
+@media  
+  (max-width:1200px)
+  and (min-resolution:192dpi)
+  {
+    .accordion-body{flex-flow: column;
+  }
+
+  }
+
+#rides{
+  background-color: lightgrey;
+}
+   
+#try{
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: 600;
+}
+
+  
+
+#lo{
+  margin-top: 15.6rem;
+  position: fixed;
+  width: 100vw;
+  height:6rem;
+  background-color:black;
+}
+
+#collapseThree{
+  background-color: black;
+  
+}
+#collapseTwo{
+  background-color: black;
+}
+#collapseOne{
+  background-color: black;
+}  /*mobile first*/
+
+
+ 
+
+
+
